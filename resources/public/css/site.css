@@ -1,0 +1,19 @@
+/* Phoenix flash messages */
+.alert:empty { display: none; }
+
+#menu a { color: black; }
+#about a { text-decoration: underline; color: black; }
+#title a { text-decoration: none; }
+
+#nav-social-list { padding-left: 15px; }
+
+@media (min-width: 768px) {
+  #nav-social-list { padding-top: 15px; }
+}
+
+#nav-social-list > li {
+  padding-right: 20px;
+}
+
+#nav-social-list a { color: #555; }
+
