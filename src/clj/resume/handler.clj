@@ -73,17 +73,17 @@
 (defn about []
   (list [:div {:class "row" :id "about"}
    [:h3 "Hi I'm Alex"]
-   [:p "I'm a software engineer with lots of experience in developing and maintaining prototype web applications. My go to development stack is Ruby on Rails along with Backbone. That said I've also worked down at the firmware level, while developing security enhancements for Android platforms and even done a bit of devops and systems administration for remote mission critical systems."]
-   [:p "Lately I've been doing work on internal services for moving from a monolithic Rails application to an AWS based SOA architecture. I've also been working on internal application plumbing problems like developing tools for enabling developers to quickly profile their code, upgrading Rails, and finding and fixing security issues. In my spare time I'm exploring "
-    [:a {:target "_blank" :href "http://elixir-lang.org/"} "Elixir"]
-    " along with the "
-    [:a {:target "_blank" :href "http://www.phoenixframework.org/"} "Phoenix web framework"]
-    " (this is a Phoenix site!) and reading about "
+   [:p "I'm a security engineer with a background in maintaining, developing and securing web applications. I have a great deal of experience with Ruby on Rails and have spent the last year working with Rails codebases in feature development and security. I've also worked down at the firmware level by developing security enhancements for Android platforms, and done devops and systems administration for remote mission critical systems."]
+   [:p "Today I'm doing security architecture. My days include creating security policies, performing manual code audits and security tests on internal applications, and advising teams on developing solutions to secure our systems. I've also been doing work on internal services for moving from a monolithic Rails application to an AWS based SOA architecture. I've also been working on internal application plumbing problems like developing tools for enabling developers to quickly profile their code, upgrading Rails, and finding and fixing security issues. In my spare time I'm exploring "
+    [:a {:target "_blank" :href "https://clojure.org"} "Clojure"]
+    " and using it to learn more about cryptography through "
+    [:a {:target "_blank" :href "https://cryptopals.com"} "cryptopals"]
+    " and reading about "
     [:a {:target "_blank" :href "https://www.reddit.com/r/netsec/"} "Infosec"] "."]
    [:p "When I'm away from computers I've been known to climb rocks, race cars, and read books."]
-   [:p "I'm based in Chicago and I'm currently looking for a job in software development, ideally with a security focus. "
-    [:a {:href "/contact"} "Contact me"]
-    " if you'd like to chat about an opportunity!"]]
+   [:p "I'm based in Chicago and while I'm not currently looking for a job, "
+    [:a {:href "/contact"} "contact me"]
+    " if you'd like to chat!"]]
    [:div {:class "row"}
     [:div {:class "col-md-8 col-md-offset-2"}
      [:img {:class "img-responsive img-rounded" :alt "Driving!" :src "/images/driving.jpg"}]]]))
@@ -95,6 +95,12 @@
           [:small "alex@alexbugosh.com"]]]
         [:div {:class "row"}
          [:h3 "Experience"]
+         [:hr]
+         [:h4 "Information Security Lead at Jellyvision"
+          [:small "March 2017 - Present"]]
+         [:hr]
+         [:h4 "Tech Lead Platform at Jellyvision "
+          [:small "September 2016 - March 2017"]]
          [:hr]
          [:h4 "Senior Software Engineer at Avant "
           [:small "January 2016 - July 2016"]]
