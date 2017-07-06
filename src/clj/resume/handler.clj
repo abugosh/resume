@@ -73,13 +73,12 @@
 (defn about []
   (list [:div {:class "row" :id "about"}
    [:h3 "Hi I'm Alex"]
-   [:p "I'm a security engineer with a background in maintaining, developing and securing web applications. I have a great deal of experience with Ruby on Rails and have spent the last year working with Rails codebases in feature development and security. I've also worked down at the firmware level by developing security enhancements for Android platforms, and done devops and systems administration for remote mission critical systems."]
-   [:p "Today I'm doing security architecture. My days include creating security policies, performing manual code audits and security tests on internal applications, and advising teams on developing solutions to secure our systems. I've also been doing work on internal services for moving from a monolithic Rails application to an AWS based SOA architecture. I've also been working on internal application plumbing problems like developing tools for enabling developers to quickly profile their code, upgrading Rails, and finding and fixing security issues. In my spare time I'm exploring "
+   [:p "I'm a security engineer with a background in maintaining, developing and securing web applications. I have a great deal of experience with Ruby on Rails, and have spent the last year working with Rails codebases doing feature development and security. I've also worked down at the firmware level by developing security enhancements for Android platforms, and even done devops and systems administration for remote mission critical systems."]
+   [:p "Today I'm doing security architecture. My days include creating security policies, performing manual code audits and security tests on internal applications, and advising teams to develop solutions to secure our systems. I’ve worked on moving a monolithic Rails application into an AWS based service-oriented architecture. I’ve also resolved internal application plumbing problems, including developing tools to enable engineers to quickly profile their code, upgrading Rails, and identifying/ fixing security issues. In my spare time, I'm exploring "
     [:a {:target "_blank" :href "https://clojure.org"} "Clojure"]
     " and using it to learn more about cryptography through "
     [:a {:target "_blank" :href "https://cryptopals.com"} "cryptopals"]
-    " and reading about "
-    [:a {:target "_blank" :href "https://www.reddit.com/r/netsec/"} "Infosec"] "."]
+    "."]
    [:p "When I'm away from computers I've been known to climb rocks, race cars, and read books."]
    [:p "I'm based in Chicago and while I'm not currently looking for a job, "
     [:a {:href "/contact"} "contact me"]
