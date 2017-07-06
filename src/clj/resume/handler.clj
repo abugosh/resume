@@ -72,7 +72,7 @@
 
 (defn about []
   (list [:div {:class "row" :id "about"}
-   [:h3 "Hi I'm Alex"]
+   [:h3 "Hi, I'm Alex!"]
    [:p "I'm a security engineer with a background in maintaining, developing and securing web applications. I have a great deal of experience with Ruby on Rails, and have spent the last year working with Rails codebases doing feature development and security. I've also worked down at the firmware level by developing security enhancements for Android platforms, and even done devops and systems administration for remote mission critical systems."]
    [:p "Today I'm doing security architecture. My days include creating security policies, performing manual code audits and security tests on internal applications, and advising teams to develop solutions to secure our systems. I’ve worked on moving a monolithic Rails application into an AWS based service-oriented architecture. I’ve also resolved internal application plumbing problems, including developing tools to enable engineers to quickly profile their code, upgrading Rails, and identifying/ fixing security issues. In my spare time, I'm exploring "
     [:a {:target "_blank" :href "https://clojure.org"} "Clojure"]
