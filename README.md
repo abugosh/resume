@@ -4,4 +4,4 @@ A website and resume for Alex Bugosh.
 
 ## Seeing in Action
 
-Check it out at <abugo.sh>!
+Check it out at [abugo.sh](http://abugo.sh)!
